@@ -1,4 +1,5 @@
-%% SpikeAnalysis - Chirp Stimulus, Raster Plot, PSTH & SDF
+%% ChirpAnalysis_Chirp-Raster-PSTH-SDF
+% Plots Chirp Stimulus, Raster Plot, PSTH & SDF as subplots into one figure
 
 % clear all, close all, clc;
 clear all;
@@ -7,7 +8,8 @@ startup_cin
 
 %% Load data
 % load('/Volumes/lab/users/yannik/units_for_chirp_sorted.mat')
-load('/Users/Yannik/Documents/MATLAB/HIWI/units_for_chirp_sorted')
+% load('/Users/Yannik/Documents/MATLAB/HIWI/units_for_chirp_sorted')
+load('/Users/Yannik/Google Drive/SHARED Folders & Files/Academic/MATLAB gdrive/MATLAB HIWI/Miro scripts/units_for_chirp_sorted2.mat')
 
 % Select units of interest
 units = [48];
